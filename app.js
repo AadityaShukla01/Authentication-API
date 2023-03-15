@@ -25,5 +25,5 @@ app.use(express.json())
 app.use("/api/user", userRoutes)
 
 app.listen(port, () => {
-    console.log(`Jai Siya Ram at ${port}`);
+    console.log(`Running ${port}`);
 })
